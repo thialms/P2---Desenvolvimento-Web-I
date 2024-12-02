@@ -49,6 +49,7 @@ header {
     width: 100%;
     box-shadow: 0 1px 4px;
     z-index: 100;
+    font-weight: 600;
 }
 
 
@@ -222,6 +223,10 @@ header {
     margin-top: 2rem;
  }
 
+ .modal {
+  font-weight: 700;
+ }
+
  /* CAROUSEL */
 
  .carousel-fade .carousel-item {
@@ -310,6 +315,11 @@ header {
 
 .card-title {
   font-size: 1.5rem; 
+  font-weight: 600;
+}
+
+
+.card-text {
   font-weight: 600;
 }
 
@@ -420,6 +430,10 @@ header {
   visibility: visible; /* Certifique-se de que não está 'hidden' */
 }
 
+footer {
+  font-weight: 600;
+  color: #000;
+}
 
 
 

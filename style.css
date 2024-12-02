@@ -27,7 +27,7 @@ img{
 
 body {
     color: var(--text-color);
-    background-color: black
+    background-color: black;
 }
 
 .container {
@@ -113,6 +113,13 @@ header {
 
  .carrinho.active {
    right: 0;
+ }
+
+ #itens-carrinho {
+  max-height: 400px; 
+  overflow-y: auto; 
+  scrollbar-width: thin; 
+  scrollbar-color: var(--text-color) var(--bg-color)
  }
 
  .titulo-carrinho {
@@ -443,4 +450,23 @@ footer {
   #save-btn {
     width: 8em;
   }
+
 }
+
+
+@media (max-width: 600px) {
+  .carrinho {
+    position: fixed;
+    top: 0;
+    right: -200%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    box-shadow: none;
+    transition: 0.3s;
+    z-index: 250;
+ }
+
+}
+

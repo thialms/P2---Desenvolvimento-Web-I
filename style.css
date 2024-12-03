@@ -102,9 +102,9 @@ header {
     position: fixed;
     top: 0;
     right: -200%;
-    width: 360px;
+    width: 100px;
     height: 950px;
-    min-width: 70vh;
+    min-width: 40vh;
     padding: 20px;
     background: white;
     box-shadow: -2px 0 4px;
@@ -116,7 +116,7 @@ header {
  }
 
  #itens-carrinho {
-  max-height: 400px; 
+  max-height: 500px; 
   overflow-y: auto; 
   scrollbar-width: thin; 
   scrollbar-color: var(--text-color) var(--bg-color)
@@ -137,8 +137,8 @@ header {
  }
 
  .carrinho-img {
-   width: 150px;
-   height: 150px;
+   width: 100px;
+   height: 100px;
    object-fit: contain;
    border: 1px solid var(--bg-color);
  }
@@ -149,27 +149,27 @@ header {
  }
 
  .titulo-produto-carrinho {
-   font-size: 1.3rem;
+   font-size: 1rem;
    font-weight: 600;
  }
 
  .preco-carrinho {
-   font-size: 1.1rem;
+   font-size: .8rem;
    font-weight: 600;
  }
 
  .quantidade-carrinho {
    border: 1px solid var(--text-color);
    outline-color: var(--main-color);
-   width: 2.4rem;
+   width: 1.3rem;
    text-align: center;
-   padding: 5px;
-   font-size: 1rem;
+   padding: 4px;
+   font-size: .7rem;
    font-weight: 600;
  }
 
  .remover-carrinho {
-   font-size: 24px;
+   font-size: 18px;
    color: var(--bg-color);
    cursor: pointer;
  }
@@ -458,9 +458,7 @@ footer {
 @media (max-width: 600px) {
   .carrinho {
     position: fixed;
-    top: 0;
-    right: -200%;
-    width: 100%;
+    width: 10px;
     height: 100%;
     padding: 20px;
     background: white;

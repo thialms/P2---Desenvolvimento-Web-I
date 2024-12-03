@@ -103,7 +103,7 @@ header {
     top: 0;
     right: -200%;
     width: 100px;
-    height: 950px;
+    height: 2000px;
     min-width: 40vh;
     padding: 20px;
     background: white;
@@ -117,7 +117,8 @@ header {
 
  #itens-carrinho {
   max-height: 500px; 
-  overflow-y: auto; 
+  overflow-x: hidden;
+  overflow-y: scroll;
   scrollbar-width: thin; 
   scrollbar-color: var(--text-color) var(--bg-color)
  }
@@ -163,7 +164,7 @@ header {
    outline-color: var(--main-color);
    width: 1.3rem;
    text-align: center;
-   padding: 4px;
+   padding: 5px;
    font-size: .7rem;
    font-weight: 600;
  }
@@ -262,7 +263,6 @@ header {
     width: 100%;
     height: auto;
     margin-bottom: 0.5rem;
-    mix-blend-mode: darken;
  }
 
  .product-titulo {
@@ -451,21 +451,6 @@ footer {
   #save-btn {
     width: 8em;
   }
-
-}
-
-
-@media (max-width: 600px) {
-  .carrinho {
-    position: fixed;
-    width: 10px;
-    height: 100%;
-    padding: 20px;
-    background: white;
-    box-shadow: none;
-    transition: 0.3s;
-    z-index: 250;
- }
 
 }
 

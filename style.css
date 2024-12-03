@@ -127,6 +127,7 @@ header {
    text-align: center;
    font-size: 1.5rem;
    margin-top: 1.5rem;
+
  }
 
  .carrinho-box {
@@ -135,6 +136,7 @@ header {
    align-items: center;
    gap: 1rem;
    margin-top: 1rem;
+
  }
 
  .carrinho-img {
@@ -147,6 +149,7 @@ header {
  .detalhe-box {
    display: grid;
    row-gap: 0.5rem;
+   
  }
 
  .titulo-produto-carrinho {
@@ -160,13 +163,13 @@ header {
  }
 
  .quantidade-carrinho {
-   border: 1px solid var(--text-color);
-   outline-color: var(--main-color);
-   width: 1.3rem;
-   text-align: center;
-   padding: 5px;
-   font-size: .7rem;
-   font-weight: 600;
+  border: 1px solid var(--text-color);
+  outline-color: var(--main-color);
+  width: 2.9rem;
+  text-align: center;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 600;
  }
 
  .remover-carrinho {
@@ -446,6 +449,15 @@ footer {
 
 
 
+@media (max-width: 1440px) {
+  .carrinho-box {
+    display: grid;
+    grid-template-columns: 40% 50% 18%;
+  }
+
+}
+
+
 
 @media (min-width: 500px) {
   #save-btn {
@@ -453,4 +465,5 @@ footer {
   }
 
 }
+
 
